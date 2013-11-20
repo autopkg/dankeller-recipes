@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads Intego VirusBarrier 2013 installer.</string>
+	<key>Identifier</key>
+	<string>com.github.dankeller.download.VirusBarrier2013</string>
+	<key>Input</key>
+	<dict>
+		<key>DMG_NAME</key>
+		<string>VirusBarrier_2013.dmg</string>
+		<key>INSTALLER_APP</key>
+		<string>VirusBarrier Installer.app</string>
+		<key>PKG_NAME</key>
+		<string>VirusBarrier.pkg</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>url</key>
+				<string>http://www.integodownload.com/mac1/X/2013/%DMG_NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
