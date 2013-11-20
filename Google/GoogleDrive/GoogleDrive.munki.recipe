@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Google Drive disk image and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.dankeller.munki.googledrive</string>
+    <string>com.github.dankeller.munki.GoogleDrive</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.dankeller.download.googledrive</string>
+    <string>com.github.dankeller.download.GoogleDrive</string>
     <key>Process</key>
     <array>
         <dict>
