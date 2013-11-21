@@ -1,4 +1,4 @@
-dankeller/autopkg
+autopkg-recipes
 =======
 
 Recipes for [autopkg](https://github.com/autopkg/autopkg).
