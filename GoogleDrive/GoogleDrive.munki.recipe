@@ -28,6 +28,19 @@
 			<string>10.6</string>
             <key>unattended_install</key>
             <true/>
+            <key>postinstall_script</key>
+            <string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        &apos;/Applications/Google Drive.app/Contents/Resources/Google Drive Icon Helper&apos; \
+        &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
+
+chmod 6755 &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
+chown root:procmod &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
+</string>
         </dict>
     </dict>
     <key>MinimumVersion</key>
