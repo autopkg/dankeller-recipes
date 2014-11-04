@@ -41,6 +41,11 @@ cp \
 chmod 6755 &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
 chown root:procmod &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
 </string>
+	<key>postuninstall_script</key>
+	<string>#/bin/sh
+
+rm &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
+</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
