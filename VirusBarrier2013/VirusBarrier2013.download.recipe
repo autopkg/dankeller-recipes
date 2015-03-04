@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Intego VirusBarrier 2013 installer.</string>
 	<key>Identifier</key>
-	<string>com.github.dankeller.download.VirusBarrier2013</string>
+	<string>com.github.autopkg.recipes-dankeller.download.virusbarrier-2013</string>
 	<key>Input</key>
 	<dict>
 		<key>DMG_NAME</key>

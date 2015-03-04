@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Drive disk image.</string>
     <key>Identifier</key>
-    <string>com.github.dankeller.download.GoogleDrive</string>
+    <string>com.github.autopkg.recipes-dankeller.download.google-drive</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

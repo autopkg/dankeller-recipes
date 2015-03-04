@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Google Drive disk image and imports into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.dankeller.munki.GoogleDrive</string>
+	<string>com.github.autopkg.recipes-dankeller.munki.google-drive</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -51,7 +51,7 @@ rm &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dankeller.download.GoogleDrive</string>
+	<string>com.github.autopkg.recipes-dankeller.download.google-drive</string>
 	<key>Process</key>
 	<array>
 		<dict>

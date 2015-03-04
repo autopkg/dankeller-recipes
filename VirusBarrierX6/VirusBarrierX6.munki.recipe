@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Intego VirusBarrier X6 installer, creates an 'installs' key from the VirusBarrier app and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.dankeller.munki.VirusBarrierX6</string>
+	<string>com.github.autopkg.recipes-dankeller.munki.virusbarrier-x6</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.dankeller.download.VirusBarrierX6</string>
+    <string>com.github.autopkg.recipes-dankeller.download.virusbarrier-x6</string>
     <key>Process</key>
     <array>
         <dict>
