@@ -21,7 +21,7 @@
 			<key>description</key>
 			<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
 			<key>display_name</key>
-			<string>Google Drive</string>
+			<string>Google Backup and Sync</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>minimum_os_version</key>
@@ -35,7 +35,7 @@
 # https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
 
 cp \
-        &apos;/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper&apos; \
+        &apos;/Applications/Backup and Sync.app/Contents/Helpers/Google Drive Icon Helper&apos; \
         &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
 
 chown root:procmod &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
@@ -60,7 +60,7 @@ rm &apos;/Library/PrivilegedHelperTools/Google Drive Icon Helper&apos;
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/Google Drive.app/Contents/Info.plist</string>
+				<string>%pathname%/Backup and Sync.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleVersion</string>
 			</dict>
