@@ -23,7 +23,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>url</key>
-				<string>http://www.integodownload.com/mac1/X/%DMG_NAME%</string>
+				<string>https://www.integodownload.com/mac1/X/%DMG_NAME%</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
