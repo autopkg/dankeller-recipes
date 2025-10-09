@@ -1,14 +1,9 @@
-dankeller-recipes
-=======
+# dankeller-recipes
 
-Recipes for [autopkg](https://github.com/autopkg/autopkg).
+**This repository will soon be [archived](https://github.com/autopkg/dankeller-recipes/issues/13) and its former contents will be removed.**
 
-So far:
+The [commit history](https://github.com/autopkg/dankeller-recipes/commits/master), [issues](https://github.com/autopkg/dankeller-recipes/issues?q=is%3Aissue), and [pull requests](https://github.com/autopkg/dankeller-recipes/pulls?q=is%3Apr) are still available for reference, but no future changes are planned.
 
-* Google
-	* [Google Drive](GoogleDrive) (download, munki)
-* Intego (I no longer use this following software, so these may be out of date.)
-	* [VirusScan X6](VirusBarrierX6) (download, pkg, munki)
-	* [VirusScan 2013](VirusBarrier2013) (download, munki)
+To remove this repository from your local AutoPkg setup, run:
 
-Enjoy!
+    autopkg repo-delete dankeller-recipes
